@@ -6,7 +6,6 @@ const DashAsset = ({
   boxId,
   currency,
 }) => (
-
   <li
     key={asset.id}
     className={style.dashAsset
