@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link, Redirect } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 import { ReactComponent as GoBack } from '../assets/icons/pagePrev.svg';
-import style from '../styles/AssetDetailsSafe.module.css';
+// import style from '../styles/AssetDetailsSafe.module.css';
 
 const AssetDetailsSafe = ({
   match,
