@@ -1,5 +1,6 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
+import style from '../styles/CurrencyFilter.module.css';
 
 const CurrencyFilter = ({
   changeCurrencyFilter,
@@ -21,13 +22,13 @@ const CurrencyFilter = ({
 
   return (
 
-    <div className="classcategories">
+    <div className={style.currencyFilter}>
       <select className="categories" onChange={handleChange}>
         {
-            categories.map((cat, id) => (
-              <option key={`opt_${id * 2}`} value={cat.api}>{cat.key}</option>
-            ))
-          }
+          categories.map((cat, id) => (
+            <option key={`opt_${id * 2}`} value={cat.api}>{cat.key}</option>
+          ))
+        }
       </select>
     </div>
   );
