@@ -7,7 +7,7 @@ import {
 import DashBoard from '../containers/DashBoard';
 import { updateApiRenderList } from '../actions/index';
 import AssetDetailsSafe from '../containers/AssetDetailsSafe';
-import styles from '../styles/Agipp.module.css';
+import styles from '../styles/App.module.css';
 
 class App extends React.Component {
   constructor(props) {
