@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-
-// import style from '../styles/DataDetail.module.css';
+import { getDate, isEven, textToBigCurrency } from '../helpers/componentHelp';
+import style from '../styles/DataDetail.module.css';
 
 const DataDetail = ({
   data,
@@ -21,7 +21,7 @@ const DataDetail = ({
 
   return (
     <div className={style.dataDetailRow
-        + (isEven(idRow) ? ` ${style.evenBox}` : ` ${style.oddBox}`)}
+      + (isEven(idRow) ? ` ${style.evenBox}` : ` ${style.oddBox}`)}
     >
       <div className={style.detailKeys}>
         <p>{keys[0]}</p>

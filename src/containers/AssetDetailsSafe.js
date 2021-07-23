@@ -2,8 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link, Redirect } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
+import DataDetail from '../components/DataDetail';
+import style from '../styles/AssetDetailsSafe.module.css';
+import { textToBigCurrency } from '../helpers/componentHelp';
 import { ReactComponent as GoBack } from '../assets/icons/pagePrev.svg';
-// import style from '../styles/AssetDetailsSafe.module.css';
 
 const AssetDetailsSafe = ({
   match,
@@ -52,11 +54,11 @@ const AssetDetailsSafe = ({
         </div>
         <ul>
           {
-              showData.map((data, id) => (
-                // eslint-disable-next-line
-                <DataDetail idRow={id} key={id * 2} data={data} />
-              ))
-            }
+            showData.map((data, id) => (
+              // eslint-disable-next-line
+              <DataDetail idRow={id} key={id * 2} data={data} />
+            ))
+          }
         </ul>
       </>
     );

@@ -6,7 +6,7 @@ import mainFilterCat from '../config/appConfig';
 const MainFilter = ({
   changeMainFilter,
 }) => {
-  const handleChange = e => {
+  const handleChange = (e) => {
     changeMainFilter(e.target.value);
   };
 
