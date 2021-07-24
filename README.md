@@ -1,23 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# REACT Redux Bookstore  APP
-### About
-A frontend application for bookstore CMS which is build by using React and Redux.
+# React Redux Capstone: Catalogue of Statistics 
+
+
+Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, total Volume in higher to lower order. Also, the user can filter by cryptocurrency name.
 
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-## ScreenShot
 ## Screenshot
-<img src="./docs/screenshot1.JPG" width="40%" height="auto" /> </br>
+<img src="./docs/screensh.JPG" width="40%" height="auto" /> </br>
 
-<img src="./docs/screenshoot2.JPG" width="40%" height="auto" />
 
 ## Live Demo 
 
-[Clic here](https://bookstoreappbillo.herokuapp.com/)
-## Built With
-
-## Milestones of the project.
+[Clic here]()
 
 ## Built With
 
@@ -50,7 +46,7 @@ To get this project up and running locally, you must follow the steps from the [
 
 **Step 1**<br>
 Navigate through the local folder where you want to clone the repository and run<br>
-git clone ` https://github.com/billodiallo/bookstore.git`. It will clone the repo to your local folder.<br>
+git clone ` https://github.com/billodiallo/catalogue-of-service.git`. It will clone the repo to your local folder.<br>
 
 **Step 2**<br>
 - Cd inside the project
