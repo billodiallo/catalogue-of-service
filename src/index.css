@@ -1,19 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --soft-pink: #fb5092;
-    --white: #fff;
-    --dark-slate-pink: #b13968;
-    --primary-pink: #ec4c8b;
-    --dark-pink: #cf4278;
-    --regular-pink: #dd4883;
-    --black: #000;
+  --soft-pink: #fb5092;
+  --white: #fff;
+  --dark-slate-pink: #b13968;
+  --primary-pink: #ec4c8b;
+  --dark-pink: #cf4278;
+  --regular-pink: #dd4883;
+  --black: #000;
 }
 
 /* Fonts for all componenets */
@@ -23,40 +23,40 @@
 /* Generic classes */
 
 #root {
-    height: 100vh;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexCol {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .flexColEnd {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 @media screen and (min-width: 768px) {
-    html {
-        font-size: 28px;
-    }
+  html {
+    font-size: 28px;
+  }
 }
