@@ -1,7 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
-
 import style from '../styles/MainAsset.module.css';
+import { textToBigCurrency } from '../helpers/componentHelp';
 
 const MainAsset = ({
   asset,
@@ -15,7 +15,7 @@ const MainAsset = ({
     <div className={`${style.rightBox} flexCol`}>
       <h1>{asset.id}</h1>
       <div className={style.marketCap}>
-        {/* <h2>{`${textToBigCurrency(asset.market_cap)} `}</h2> */}
+        <h2>{`${textToBigCurrency(asset.market_cap)} `}</h2>
         <span>{currency}</span>
       </div>
       <h2>{asset.symbol}</h2>
