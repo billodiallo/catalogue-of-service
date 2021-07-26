@@ -14,3 +14,15 @@ it('update currency to new filtered currency', () => {
     currencyFilter(stateBefore, currencyUpdate(filter)),
   ).toEqual(stateAfter);
 });
+
+it('get current reduxs store currency', () => {
+  const stateBefore = 'ars';
+  const stateAfter = 'ars';
+
+  deepFreeze(stateBefore);
+  deepFreeze(getCurrenCurrency);
+
+  expect(
+    currencyFilter(stateBefore, getCurrenCurrency()),
+  ).toEqual(stateAfter);
+});
