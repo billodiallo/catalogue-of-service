@@ -42,3 +42,12 @@ it('test not going below one, ', () => {
     page(stateBefore, prevPage()),
   ).toEqual(stateAfter);
 });
+
+it('change to specific page number,', () => {
+  const stateBefore = 20;
+  const newPage = 10;
+  const stateAfter = 10;
+  deepFreeze(stateBefore);
+  deepFreeze(nextPage);
+  expect(page(stateBefore, updatePage(newPage))).toEqual(stateAfter);
+});
