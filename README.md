@@ -10,7 +10,6 @@ Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, 
 ## Screenshot
 <img src="./docs/screensh.JPG" width="40%" height="auto" /> </br>
 
-
 ## Live Demo 
 
 [Clic here]()
