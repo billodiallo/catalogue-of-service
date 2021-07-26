@@ -21,3 +21,11 @@ it('test not going above 40, ', () => {
   deepFreeze(stateAfter);
   expect(page(stateBefore, nextPage())).toEqual(stateAfter);
 });
+
+it('go to prev page happy path', () => {
+  const stateBefore = 2;
+  const stateAfter = 1;
+  deepFreeze(stateBefore);
+  deepFreeze(stateAfter);
+  expect(page(stateBefore, prevPage())).toEqual(stateAfter);
+});
