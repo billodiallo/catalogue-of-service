@@ -29,3 +29,16 @@ it('go to prev page happy path', () => {
   deepFreeze(stateAfter);
   expect(page(stateBefore, prevPage())).toEqual(stateAfter);
 });
+
+it('test not going below one, ', () => {
+  const stateBefore = 1;
+
+  const stateAfter = 1;
+
+  deepFreeze(stateBefore);
+  deepFreeze(nextPage);
+
+  expect(
+    page(stateBefore, prevPage()),
+  ).toEqual(stateAfter);
+});
