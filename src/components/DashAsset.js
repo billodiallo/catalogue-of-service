@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import style from '../styles/DashAsset.module.css';
@@ -18,7 +19,6 @@ const DashAsset = ({
     <div className={`${style.downBox} flexColEnd`}>
       <h1>{asset.id}</h1>
       <div className={style.marketCap}>
-        {/* <h2>{`${textToBigCurrency(asset.market_cap)} `}</h2> */}
         <h2>{`  ${currency}`}</h2>
       </div>
       <h2>{asset.symbol}</h2>
