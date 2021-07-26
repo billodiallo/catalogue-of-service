@@ -108,7 +108,6 @@ const RenderDashBoard = ({
           />
         </Link>
         <div className={style.dashGap}>
-          {/* <a className={style.myBrand} href="https://www.billodiallo.me/" /> */}
           <p>
             stats by
             {apiToKey(state.mainFilter, mainFilterCat)}
