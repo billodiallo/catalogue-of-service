@@ -1,5 +1,3 @@
-import assert from 'assert';
-import { array } from 'yargs';
 import fetchApiCryptoList from '../apis/coinsgecko';
 
 const initialConf = {
