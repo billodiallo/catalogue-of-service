@@ -34,3 +34,20 @@ it('fetch API success call', () => {
     cryptoApi(stateBefore, fetchApiSuccess()),
   ).toEqual(stateAfter);
 });
+
+it('fetch API failure call', () => {
+  const stateBefore = [];
+  const stateAfter = {
+    fetching: false,
+    updated: false,
+    apiError: true,
+    status: FETCHING_API_FAILURE,
+  };
+
+  deepFreeze(stateBefore);
+  deepFreeze(fetchApiFailure);
+
+  expect(
+    cryptoApi(stateBefore, fetchApiFailure()),
+  ).toEqual(stateAfter);
+});
