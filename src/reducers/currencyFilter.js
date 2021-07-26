@@ -6,12 +6,12 @@ import {
 const currencyFilter = (state = 'usd', action) => {
   switch (action.type) {
     case CURRENCY_UPDATE:
-      // eslint-disable-next-line
-        return action.filter;
+
+      return action.filter;
 
     case GET_CURRENT_CURRENCY:
-      // eslint-disable-next-line
-        return state;
+
+      return state;
 
     default:
       return state;
