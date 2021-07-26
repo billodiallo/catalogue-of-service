@@ -18,3 +18,19 @@ it('fetch API Asset list update', () => {
     cryptoApi(stateBefore, fetchApiAssets()),
   ).toEqual(stateAfter);
 });
+
+it('fetch API success call', () => {
+  const stateBefore = [];
+  const stateAfter = {
+    fetching: false,
+    updated: true,
+    apiError: false,
+    status: FETCHING_API_SUCCESS,
+  };
+  deepFreeze(stateBefore);
+  deepFreeze(fetchApiSuccess);
+
+  expect(
+    cryptoApi(stateBefore, fetchApiSuccess()),
+  ).toEqual(stateAfter);
+});
