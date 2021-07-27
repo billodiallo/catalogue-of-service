@@ -1,72 +1,87 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Redux Capstone: Catalogue of Statistics 
 
-## Available Scripts
+Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, total Volume in higher to lower order. Also, the user can filter by cryptocurrency name.
 
-In the project directory, you can run:
+![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-### `yarn start`
+## Screenshot
+<img src="./docs/screensh.JPG" width="40%" height="auto" /> </br>
+
+
+## Live Demo 
+
+[Clic here](https://billo-react-capstone.netlify.app/)
+
+## Video Demo 
+[CLick here](https://www.loom.com/share/9429b596053f4c4989b47bd972d3a3c5)
+
+## Built With
+
+- [Node.js]
+- [npm](https://www.npmjs.com/)
+- [ES6](http://es6-features.org/) 
+- [React](https://reactjs.org/)
+- [React-DOM](https://reactjs.org/docs/react-dom.html)
+- [create-react-app](https://github.com/facebook/create-react-app)
+- [React-Redux](https://github.com/reduxjs/react-redux)
+- [Redux](https://github.com/reduxjs/redux)
+- [PropTypes](https://www.npmjs.com/package/prop-types)
+- CSS
+- ESLint
+- StyleLint
 
 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Packages
+- [PropTypes](https://www.npmjs.com/package/prop-types)
 
-### `yarn test`
+## Prerequisities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get this project up and running locally, you must follow the steps from the [getting started section](#getting-started).
 
-### `yarn build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**To get this project set up on your local machine, follow these simple steps:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Step 1**<br>
+Navigate through the local folder where you want to clone the repository and run<br>
+git clone ` https://github.com/billodiallo/catalogue-of-service.git`. It will clone the repo to your local folder.<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Step 2**<br>
+- Cd inside the project
 
-### `yarn eject`
+- run npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Run project 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`` npm run start ``
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+open ```localhost:3000``` in browser. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues and feature requests are welcome!
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 Billo Dallio
 
-### Analyzing the Bundle Size
+- GitHub: [@billodiallo](https://github.com/billodiallo)
+- Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
+- LinkedIn: [Billo Diallo](https://www.linkedin.com/in/mabillodiallo/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🙋‍♂ show your support
 
-### Making a Progressive Web App
+give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📝 license
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+This project is [MIT](LICENSE) licensed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
