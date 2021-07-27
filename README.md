@@ -2,7 +2,6 @@
 
 # React Redux Capstone: Catalogue of Statistics 
 
-
 Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, total Volume in higher to lower order. Also, the user can filter by cryptocurrency name.
 
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
@@ -14,6 +13,9 @@ Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, 
 ## Live Demo 
 
 [Clic here](https://billo-react-capstone.netlify.app/)
+
+## Video Demo 
+[CLick here](https://www.loom.com/share/9429b596053f4c4989b47bd972d3a3c5)
 
 ## Built With
 
